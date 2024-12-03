@@ -19,6 +19,8 @@ func main() {
 	case "day01":
 		fmt.Println("Running puzzle 1")
 		day01.Puzzle1()
+		fmt.Println("Running puzzle 2")
+		day01.Puzzle2()
 
 	default:
 		fmt.Println("No known puzzle specified")
